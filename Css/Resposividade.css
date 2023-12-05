@@ -1,0 +1,392 @@
+@media only screen and (max-width:1100px) {
+    header {
+        width: 90%;
+        padding: 0 20px;
+    }
+
+    nav {
+        position: absolute;
+        left: -300px;
+        top: 0;
+        z-index: 999;
+        width: 280px;
+        height: 100vh;
+        background-color: #fefefe;
+        transition: 0.2s;
+        box-shadow: 2px 0 20px 0 rgba(0, 0, 0, 0.05);
+    }
+
+
+    #nav_check:checked ~ nav {
+        left: 0;
+    }
+
+    nav .logo {
+        display: block;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        margin-left: 30px;
+    }
+
+
+
+    nav ul li a {
+        margin-bottom: 5px;
+        padding: 10px 15px;
+        border-radius: 5px;
+    }
+
+    nav ul {
+        display: block;
+        padding: 0 20px;
+        margin-top: 30px;
+    }
+
+    .hamburguer {
+        display: block;
+    }
+
+    .slide-box img {
+        width: 90%;
+        height: 350px;
+        margin: 50 auto;
+    }
+
+    .nav-manual .manual-btn, .nav-auto div{
+        padding: 6px;
+    }
+
+    .nav-manual, .nav-auto{
+        margin: 350px auto;
+    }
+
+    .texto-auto {
+        width: 90%;
+        font-size: 20px;
+        height: 35px;
+     }
+     .card-produtos-promo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        padding: 0px 30px;
+      }
+
+
+}
+
+@media screen and (max-width: 800px) {
+    .texto-auto {
+        width: 90%;
+        font-size: 13px;
+        height: 26px;
+     }
+
+    .slide-box img {
+        height: 230px;
+        margin: 30px auto;
+    }
+
+    .nav-manual, .nav-auto{
+        margin: 230px auto;
+    }
+
+    .nav-manual .manual-btn, .nav-auto div{
+        padding: 4px;
+    }
+
+    .card-produtos-promo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        padding: 0px 50px;
+      }
+
+      .conteudo img {
+        width: 180px;
+        height: 180px;
+      }
+
+      .conteudo p{
+        padding-top: 0 8px;
+        font-size: 14px;
+        font-weight: bold;
+      }
+
+      .card-produtos-promo h3{
+        font-size: 18px;
+      }
+
+      .conteudo h6 {
+        font-size:18px;
+        margin-top: 3px;
+      }
+
+      .c1 {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 15px 40px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+     }
+     .c1 a {
+        text-decoration: none;
+        color: #000000;
+        font-weight: 900;
+        font-size: 16px;
+        gap: 20px;
+
+     }
+     
+     .c1 p {
+      margin-bottom: 40px;
+     }
+
+
+
+    .titulo-div {
+      padding: 5px 100px;
+      gap: 5px;
+    }
+   
+    .titulo-div span {
+      display: block;
+      margin-top: 18px;
+    }
+
+    .titulo-div h1{
+      font-size: 25px;
+    }
+
+    .end-page {
+      grid-template-columns: 1fr;
+  
+      }
+    .end-pag p{
+        font-size: 10px;
+      }
+
+    footer {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      margin-bottom: 20px;
+    }
+      
+    footer div {
+      margin-bottom: 15px;
+    }
+      
+    footer p{
+      font-size: 14px;
+    }
+
+          
+    footer .linha {
+      display: none;
+   }
+
+   .formas-pagamento {
+    width: 90%;
+ }
+
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .card-produtos-promo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        padding: 0px 5px;
+      }
+
+      .conteudo img {
+        width: 160px;
+        height: 160px;
+      }
+
+      .conteudo p{
+        padding-top: 0 8px;
+        font-size: 14px;
+        font-weight: bold;
+      }
+
+      .card-produtos-promo h3{
+        font-size: 18px;
+      }
+
+      .conteudo h6 {
+        font-size:18px;
+        margin-top: 3px;
+      }
+
+      .conteudo .fa {
+        font-size: 16px;
+        transform: .4s;
+        margin: 3px;
+      }
+
+      .conteudo {
+        width: 100%;
+
+      }
+      .c1 {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 5px 20px;
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 5px;
+     }
+     .c1 a {
+        text-decoration: none;
+        color: #000000;
+        font-weight: 900;
+        font-size: 14px;
+        gap: 20px;
+
+     }
+     
+     .c1 p {
+      margin-bottom: 40px;
+     }
+
+     .titulo-div {
+      padding: 5px 40px ;
+       gap: 10px;
+   }
+   
+    .titulo-div span {
+        display: block;
+        margin-top: 18px;
+    }
+
+    .titulo-div h1{
+      font-size: 25px;
+    }
+
+
+    .categorias {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr 1fr ;
+      text-align: center;
+      padding: 0px 0px;
+      margin-bottom: 60px;
+  
+  }
+  .categorias li{
+      margin-top: 30px;
+  }
+
+  .categorias li a {
+      color: #3c3c3c;
+      background-color: rgb(241, 241, 241);
+      border-radius: 5px;
+      padding: 6px;
+      font-size: 16px;
+      font-weight: bold;
+      text-align: center;
+  }
+
+    .end-page {
+      grid-template-columns: 1fr;
+
+      }
+      .end-pag p{
+        font-size: 10px;
+      }
+
+      .c2 {
+        width: 100%;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 10px 20px;
+      }
+    
+    
+    .c2 i {
+        text-decoration: none;
+        color: #000000;
+        font-weight: 600;
+        font-size: 16px;
+    }
+    
+    .c2 p {
+        text-decoration: none;
+        color: #000000;
+        font-weight: 300;
+        font-size: 14px;
+    }
+
+    .c2 h3{
+      font-size: 14px;
+    }
+
+    footer {
+      display: grid;
+      grid-template-columns: 1fr;
+      margin-bottom: 60px;
+   }
+    
+    footer div {
+      margin-bottom: 15px;
+    }
+    
+    footer p{
+        font-size: 15px;
+    }
+
+    
+  .titulo-div-produtos {
+    text-align: center;
+    padding: 10px 40px ;
+    font-family: 'poppins';
+    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .titulo-div-produtos span {
+    display: block;
+    background-color: #000000;
+    width: 25%;
+    height: 1px;
+    margin-top: 12px;
+  }
+
+  .titulo-div-produtos h1{
+    font-size: 18px;
+ }
+  
+ .glider-prev {
+  margin-left: 150px;
+  color: #000000;
+
+}
+
+.glider-next{
+  margin-right: 150px;
+}
+
+
+
+.produto-preco a h1 {
+  font-size: 20px;
+  color: #fefefe;
+}
+
+.glider-track{
+  margin-left: 100px;
+}
+
+.formas-pagamento {
+  width: 60%;
+}
+
+}
